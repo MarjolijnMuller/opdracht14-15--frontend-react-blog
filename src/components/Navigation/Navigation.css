@@ -1,0 +1,44 @@
+.logo {
+    max-width: 15rem;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+
+nav {
+    display: flex;
+    height: 5rem;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(44,47,57);
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.NavigationItem {
+    list-style: none;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin-right: 1rem;
+    color: white;
+}
+
+.default-link {
+    border-bottom: 1px solid transparent;
+    color: white;
+}
+
+.active-link {
+    border-bottom: 1px solid white;
+    color: white;
+}
+
