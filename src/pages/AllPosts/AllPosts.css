@@ -1,0 +1,12 @@
+.blogPostContainer {
+    border: 1px solid rgb(44,47,57);
+}
+
+.postLink {
+    text-decoration: none;
+    color: rgb(44,47,57);
+}
+
+a.blogLink {
+    color: rgb(44,47,57);
+}

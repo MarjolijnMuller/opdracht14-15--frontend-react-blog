@@ -19,11 +19,6 @@ ul {
     align-items: center;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-}
-
 .NavigationItem {
     list-style: none;
     flex-grow: 1;
@@ -35,10 +30,12 @@ a {
 .default-link {
     border-bottom: 1px solid transparent;
     color: white;
+    text-decoration: none;
 }
 
 .active-link {
     border-bottom: 1px solid white;
     color: white;
+    text-decoration: none;
 }
 

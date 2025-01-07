@@ -7,6 +7,7 @@ import NotFound from "./pages/NotFound/NotFound.jsx";
 import Navigation from "./components/Navigation/Navigation.jsx";
 import Post from "./pages/Blogpost/Blogpost.jsx";
 
+
 function App() {
     return (
         <>
